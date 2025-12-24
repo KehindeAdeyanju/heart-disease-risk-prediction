@@ -1,72 +1,52 @@
-# Heart Disease Risk Prediction
+🫀 Heart Disease Risk Prediction
+This project builds a machine learning model to predict the risk of heart disease using clinical patient data.
+It demonstrates a complete end-to-end ML workflow: data preprocessing, model training, evaluation, and interpretation.
+📌 Project Overview
+Heart disease remains a leading cause of morbidity worldwide.
+This project uses Logistic Regression to estimate the likelihood of heart disease based on patient features such as age, cholesterol, blood pressure, and other clinical indicators.
+🧠 What This Project Covers
+Loading and exploring medical data
+Feature engineering (age grouping & encoding)
+Train–test split for fair evaluation
+Logistic Regression model training
+Model evaluation (accuracy & confusion matrix)
+Feature importance visualization
+Clean, professional project structure
+Version control with Git & GitHub
+🛠️ Tech Stack
+Python
+Pandas
+NumPy
+Scikit-learn
+Matplotlib
+Seaborn
+📂 Project Structure
+Copy code
 
-This project builds a simple machine learning model to predict the risk of heart disease 
-using patient clinical data. It demonstrates data preprocessing, logistic regression, 
-model evaluation, and basic medical data interpretation.
-
----
-
-## Project Structure
-
-heart-disease-risk-prediction/
-├── data/
-│   └── heart.csv
-├── src/
-│   └── heart_model.py
-├── README.md
-├── requirements.txt
-└── .gitignore
-
----
-
-## Dataset
-
-The dataset contains patient clinical features such as age, sex, blood pressure, 
-cholesterol levels, and other health indicators.  
-The target variable represents the presence or absence of heart disease.
-
----
-
-## Methodology
-
-1. Loaded and explored the dataset using pandas  
-2. Created age groups to improve interpretability  
-3. Encoded categorical variables using one-hot encoding  
-4. Split the data into training and testing sets  
-5. Trained a logistic regression model  
-6. Evaluated model performance using accuracy and confusion matrix  
-7. Visualized feature importance  
-
----
-
-## Technologies Used
-
-- Python  
-- pandas  
-- NumPy  
-- scikit-learn  
-- matplotlib  
-- seaborn  
-
----
-
-## How to Run
-
-1. Clone the repository  
-2. Install dependencies:
-3. Run the model:
----
-
-## Future Improvements
-
-- Add feature scaling  
-- Try alternative models (Random Forest, XGBoost)  
-- Improve evaluation with ROC-AUC  
-- Deploy as a simple web application  
-
----
-
-## Author
-
-Medical professional transitioning into clinical AI and digital health, 
-with a focus on safe, interpretable machine learning in healthcare.
+data/           # Dataset
+src/            # Model source code
+README.md       # Project documentation
+requirements.txt
+.gitignore
+📊 Model Output
+Accuracy score on test data
+Confusion matrix visualization
+Feature importance plot showing clinical risk factors
+▶️ How to Run
+Clone the repository:
+Copy code
+Bash
+git clone https://github.com/<your-username>/heart-disease-risk-prediction.git
+Install dependencies:
+Copy code
+Bash
+pip install -r requirements.txt
+Run the model:
+Copy code
+Bash
+python src/heart_model.py
+⚠️ Disclaimer
+This project is for educational purposes only and should not be used for real medical diagnosis or treatment decisions.
+👤 Author
+Kehinde Adeyanju
+Aspiring ML Engineer | Medical Background | Python & Data Science
