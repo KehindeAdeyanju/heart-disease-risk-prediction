@@ -1,45 +1,55 @@
-🫀 Heart Disease Risk Prediction
-This project builds a machine learning model to predict the risk of heart disease using clinical patient data.
-It demonstrates a complete end-to-end ML workflow: data preprocessing, model training, evaluation, and interpretation.
-📌 Project Overview
-Heart disease remains a leading cause of morbidity worldwide.
-This project uses Logistic Regression to estimate the likelihood of heart disease based on patient features such as age, cholesterol, blood pressure, and other clinical indicators.
-🧠 What This Project Covers
-Loading and exploring medical data
-Feature engineering (age grouping & encoding)
-Train–test split for fair evaluation
-Logistic Regression model training
-Model evaluation (accuracy & confusion matrix)
-Feature importance visualization
-Clean, professional project structure
-Version control with Git & GitHub
-🛠️ Tech Stack
-Python
-Pandas
-NumPy
-Scikit-learn
-Matplotlib
-Seaborn
-📂 Project Structure
+# Heart Disease Risk Prediction
 
-data/           # Dataset
-src/            # Model source code
-README.md       # Project documentation
-requirements.txt
-.gitignore
-📊 Model Output
-Accuracy score on test data
-Confusion matrix visualization
-Feature importance plot showing clinical risk factors
-▶️ How to Run
-Clone the repository:
-git clone https://github.com/KehindeAdeyanju/heart-disease-risk-prediction.git
-Install dependencies:
+This project uses machine learning to predict the risk of heart disease based on patient health data.
+
+The goal is to demonstrate a complete data science workflow including data preprocessing, feature engineering, model training, evaluation, and visualisation.
+
+---
+
+## 📊 Dataset
+The dataset contains clinical features such as:
+- Age
+- Sex
+- Blood pressure
+- Cholesterol
+- Chest pain type
+- Heart disease outcome (target)
+
+---
+
+## 🛠️ Technologies Used
+- Python
+- Pandas & NumPy
+- Scikit-learn
+- Matplotlib & Seaborn
+
+---
+
+## ⚙️ Workflow
+1. Load and inspect the dataset
+2. Engineer age groups for better interpretability
+3. Encode categorical features
+4. Split data into training and test sets
+5. Scale features
+6. Train a Logistic Regression model
+7. Evaluate model performance
+8. Visualise results and feature importance
+
+---
+
+## 📈 Model Performance
+- Accuracy: ~80% (varies slightly per run)
+- Evaluation metrics include confusion matrix and classification report
+
+---
+
+## 📊 Visualisations
+- Confusion matrix heatmap
+- Feature importance plot showing factors influencing heart disease risk
+
+---
+
+## 🚀 How to Run
+`bash
 pip install -r requirements.txt
-Run the model:
-python src/heart_model.py
-⚠️ Disclaimer
-This project is for educational purposes only and should not be used for real medical diagnosis or treatment decisions.
-👤 Author
-Kehinde Adeyanju
-Aspiring ML Engineer | Medical Background | Python & Data Science
+python heart_model.py
