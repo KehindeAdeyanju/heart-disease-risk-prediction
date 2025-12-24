@@ -53,3 +53,7 @@ The dataset contains clinical features such as:
 `bash
 pip install -r requirements.txt
 python heart_model.py
+
+
+📌 Notes
+This project is for learning and demonstration purposes only and is not intended for clinical decision-making.
