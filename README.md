@@ -21,7 +21,6 @@ Scikit-learn
 Matplotlib
 Seaborn
 📂 Project Structure
-Copy code
 
 data/           # Dataset
 src/            # Model source code
@@ -34,16 +33,10 @@ Confusion matrix visualization
 Feature importance plot showing clinical risk factors
 ▶️ How to Run
 Clone the repository:
-Copy code
-Bash
-git clone https://github.com/<your-username>/heart-disease-risk-prediction.git
+git clone https://github.com/KehindeAdeyanju/heart-disease-risk-prediction.git
 Install dependencies:
-Copy code
-Bash
 pip install -r requirements.txt
 Run the model:
-Copy code
-Bash
 python src/heart_model.py
 ⚠️ Disclaimer
 This project is for educational purposes only and should not be used for real medical diagnosis or treatment decisions.
